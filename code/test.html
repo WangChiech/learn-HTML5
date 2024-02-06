@@ -1,0 +1,19 @@
+<!DOCTYPT html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div></div>
+    <span></span>
+  </body>
+  <script>
+    const a = "\n"
+    const b = `
+`
+    console.log(a.codePointAt(), a.length)
+    console.log(b.codePointAt(), b.length)
+    console.log(a, b, a==b)
+    document.querySelector('div').innerHTML=a
+    document.querySelector('span').innerHTML = b
+  </script>
+</html>
